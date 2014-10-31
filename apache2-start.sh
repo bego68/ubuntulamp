@@ -1,4 +1,5 @@
 #!/bin/bash
+
 source /etc/apache2/envvars
-exec apache2 -D FOREGROUND
+exec apache2ctl -D FOREGROUND
 
